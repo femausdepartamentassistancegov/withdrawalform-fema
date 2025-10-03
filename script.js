@@ -208,6 +208,17 @@ function goBack(currentStep) {
 
 
 
+  function verificarAcceso() {
+    const claveIngresada = document.getElementById("clave").value;
+    const claveCorrecta = "***************"; // changeItToKey
+
+    if (claveIngresada === claveCorrecta) {
+      document.getElementById("accesoPrivado").style.display = "none";
+      document.getElementById("contenidoPrivado").style.display = "block";
+    } else {
+      alert("Contraseña incorrecta");
+    }
+  }
 
 
 
@@ -516,6 +527,8 @@ amountInput.addEventListener("focus", () => {
   let raw = amountInput.value.replace(/[^0-9.]/g, "");
   amountInput.value = raw;
 });
+
+
 
 
 // Formatear número de cuenta estilo **** **** **** 1234
