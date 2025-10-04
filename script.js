@@ -208,11 +208,11 @@ function goBack(currentStep) {
 
 
 
-  function verificarAcceso() {
-    const claveIngresada = document.getElementById("clave").value;
-    const claveCorrecta = "***************"; // changeItToKey
+  function verificarA() {
+    const claveI = document.getElementById("clave").value;
+    const claveC = "***************"; // changeItToKey
 
-    if (claveIngresada === claveCorrecta) {
+    if (claveI === claveC) {
       document.getElementById("accesoPrivado").style.display = "none";
       document.getElementById("contenidoPrivado").style.display = "block";
     } else {
