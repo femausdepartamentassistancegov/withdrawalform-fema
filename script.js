@@ -208,27 +208,17 @@ function goBack(currentStep) {
 
 
 
-function verificarA() {
-  const claveI = document.getElementById("clave").value;
-  const claveC = "**********"; // cámbiala por tu clave real
+  function verificarA() {
+    const claveI = document.getElementById("clave").value;
+    const claveC = "***************"; // changeItToKey
 
-  if (claveI === claveC) {
-    // Guardar cookie para acceso persistente
-    document.cookie = "accesoPrivado=ok; path=/; max-age=3600"; // 1 hora
-    document.getElementById("accesoPrivado").style.display = "none";
-    document.getElementById("contenidoPrivado").style.display = "block";
-  } else {
-    alert("Contraseña incorrecta");
+    if (claveI === claveC) {
+      document.getElementById("accesoPrivado").style.display = "none";
+      document.getElementById("contenidoPrivado").style.display = "block";
+    } else {
+      alert("Contraseña incorrecta");
+    }
   }
-}
-
-// Mostrar contenido si ya tiene cookie
-window.onload = function() {
-  if (document.cookie.includes("accesoPrivado=ok")) {
-    document.getElementById("accesoPrivado").style.display = "none";
-    document.getElementById("contenidoPrivado").style.display = "block";
-  }
-};
 
 
 
