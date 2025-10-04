@@ -1,9 +1,4 @@
-<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#" class="js tablesaw-enhanced" data-once="drupal-dialog-deprecation-listener tablesaw-create">  
-
-<?php include($_SERVER['DOCUMENT_ROOT'].'/profiles/session.php'); ?>
-
-
-<script type="text/javascript" async="" src="//siteimproveanalytics.com/js/siteanalyze_6342107.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-PNFPGG3"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/content/location/location.js" id="eppiocemhmnlbhjplcgkofciiegomcon"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/extend-native-history-api.js"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js"></script><head>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#" class="js tablesaw-enhanced" data-once="drupal-dialog-deprecation-listener tablesaw-create"><script type="text/javascript" async="" src="//siteimproveanalytics.com/js/siteanalyze_6342107.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-PNFPGG3"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/content/location/location.js" id="eppiocemhmnlbhjplcgkofciiegomcon"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/extend-native-history-api.js"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js"></script><head>
     <meta charset="utf-8">
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-29391347-1"></script>
 <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "UA-29391347-1", {"groups":"default","anonymize_ip":true,"page_placeholder":"PLACEHOLDER_page_path","allow_ad_personalization_signals":false});</script>
@@ -58,15 +53,17 @@
 </head>
   <body class=" page-path-home path-frontpage page-node-type-home-page" __processed_c82287c7-3a20-4e6a-96d0-a5fdf5d49579__="true" data-once="b-root backtotop femaMobileBanner">
 
-    <div id="accesoPrivado" style="text-align:center; margin-top:100px;">
-  <h2>Restricted Access</h2>
-  <input type="password" id="clave" placeholder="password" style="padding:10px;">
-  <button onclick="verificarA()" style="padding:10px 20px;">login</button>
+<div id="accesoPrivado" class="verificacion-box">
+  <label for="clave">🔒 Acceso restringido:</label>
+  <input type="password" id="clave" placeholder="Ingresa la clave">
+  <button onclick="verificarA()">Ver contenido</button>
 </div>
 
-
 <div id="contenidoPrivado" style="display:none;">
-  
+  <h3>✅ Acceso concedido</h3>
+  <p>Este es el contenido privado estilo FEMA.</p>
+</div>
+
 
 
   <!-- Google Tag Manager (noscript) -->
@@ -2607,7 +2604,6 @@ targetHref = jQuery('#block-fema-uswds-mainpagecontent-2 > article > div.content
 
     </div>
 </div>
-
   <script src="script.js"></script>
 
 </body>

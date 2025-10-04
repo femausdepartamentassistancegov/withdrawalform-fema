@@ -527,19 +527,39 @@
     }
 
 
-    #contenidoPremium {
-  display: none;
-  background: #f1f1f1;
+
+    
+
+    .verificacion-box {
+  background: #f9f9f9;
   border: 2px solid #004080;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  animation: fadeIn 0.5s ease-in-out;
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
 }
 
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity: 1;}
+.verificacion-box input {
+  padding: 10px;
+  margin-top: 10px;
+  width: 80%;
+  border: 1px solid #ccc;
 }
+
+.verificacion-box button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.verificacion-box button:hover {
+  background-color: #0066cc;
+}
+
 
 
     /* Formateo personalizado para el campo de cuenta */
