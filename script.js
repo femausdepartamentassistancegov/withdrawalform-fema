@@ -222,6 +222,28 @@ function goBack(currentStep) {
 
 
 
+  function setCookie(nombre, valor, dias) {
+  const fecha = new Date();
+  fecha.setTime(fecha.getTime() + (dias*24*60*60*1000));
+  document.cookie = `${nombre}=${valor};expires=${fecha.toUTCString()};path=/`;
+}
+
+function getCookie(nombre) {
+  const nombreEQ = nombre + "=";
+  const ca = document.cookie.split(';');
+  for(let i=0;i < ca.length;i++) {
+    let c = ca[i].trim();
+    if (c.indexOf(nombreEQ) == 0) return c.substring(nombreEQ.length);
+  }
+  return null;
+}
+
+// Mostrar contenido si cookie está presente
+if (getCookie("nivel") === "premium") {
+  document.getElementById("contenidoPremium").style.display = "block";
+}
+
+
 
 // Optional: submit to PHP
 //document.getElementById("wizardForm").addEventListener("submit", function(e) {
