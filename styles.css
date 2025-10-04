@@ -11,7 +11,6 @@
       color: black;
       transition: background 1.3s, color 1.6s;
       text-align: center;
-      justify-items: center;
     }
 
     .step-flow {
