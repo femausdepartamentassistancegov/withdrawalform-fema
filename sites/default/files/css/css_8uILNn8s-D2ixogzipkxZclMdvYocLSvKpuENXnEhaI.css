@@ -56453,12 +56453,12 @@ div.region.region-primary-menu div.language-switcher-language-url {
 }
 
 .usa-header .usa-nav.is-visible .usa-nav__inner ul.usa-nav__primary.usa-accordion li.usa-nav__primary-item button.usa-accordion__button.usa-nav__link[aria-expanded=true] {
-    background-image: url("/profiles/femad8_gov/themes/fema_uswds/images/angle-arrow-up-white.svg");
+    background-image: url("profiles/femad8_gov/themes/fema_uswds/images/angle-arrow-up-white.svg");
 }
 
 @media (max-width: 63.99em) {
     .usa-header .usa-nav.is-visible .usa-nav__inner ul.usa-nav__primary.usa-accordion li.usa-nav__primary-item button.usa-accordion__button.usa-nav__link[aria-expanded=true] {
-        background-image:url("/profiles/femad8_gov/themes/fema_uswds/images/angle-arrow-up-primary.svg");
+        background-image:url("profiles/femad8_gov/themes/fema_uswds/images/angle-arrow-up-primary.svg");
     }
 }
 
