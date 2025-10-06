@@ -58599,11 +58599,11 @@ button.usa-accordion__button[aria-controls=edit-secondary-content] {
 }
 
 button.usa-accordion__button[aria-controls=edit-secondary-content][aria-expanded=false] {
-    background-image: url("/profiles/femad8_gov/themes/fema_uswds/images/angle-arrow-down-primary.svg");
+    background-image: url("profiles/femad8_gov/themes/fema_uswds/images/angle-arrow-down-primary.svg");
 }
 
 button.usa-accordion__button[aria-controls=edit-secondary-content][aria-expanded=true] {
-    background-image: url("/profiles/femad8_gov/themes/fema_uswds/images/angle-arrow-up-primary.svg");
+    background-image: url("profiles/femad8_gov/themes/fema_uswds/images/angle-arrow-up-primary.svg");
 }
 
 .usa-form .form-textarea-wrapper {
