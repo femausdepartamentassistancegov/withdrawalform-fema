@@ -57186,8 +57186,8 @@ div.footer-top ul li {
     }
 
     .usa-nav .usa-nav__primary button[aria-expanded=false],.usa-nav .usa-nav__primary button[aria-expanded=false]:hover {
-        background-image: url(/profiles/femad8_gov/themes/fema_uswds/assets/img/angle-arrow-down-white.svg),-webkit-gradient(linear,left top,left bottom,from(transparent),to(transparent));
-        background-image: url(/profiles/femad8_gov/themes/fema_uswds/assets/img/angle-arrow-down-white.svg),linear-gradient(transparent,transparent);
+        background-image: url(profiles/femad8_gov/themes/fema_uswds/assets/img/angle-arrow-down-white.svg),-webkit-gradient(linear,left top,left bottom,from(transparent),to(transparent));
+        background-image: url(profiles/femad8_gov/themes/fema_uswds/assets/img/angle-arrow-down-white.svg),linear-gradient(transparent,transparent);
         height: 60px;
         color: white !important;
     }
