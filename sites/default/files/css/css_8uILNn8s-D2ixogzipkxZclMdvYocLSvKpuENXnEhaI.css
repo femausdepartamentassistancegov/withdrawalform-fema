@@ -64345,7 +64345,7 @@ body.path-frontpage .search-container .grid-container {
 }
 
 .path-frontpage .search-container h1.live {
-    background: url("/sites/default/files/2020-07/hp-search-arrow.png") right 15px center no-repeat;
+    background: url("sites/default/files/2020-07/hp-search-arrow.png") right 15px center no-repeat;
     background-color: #edeeee;
     background-size: 20px !important;
     flex-grow: 50;
@@ -64356,7 +64356,7 @@ body.path-frontpage .search-container .grid-container {
 }
 
 .path-frontpage .search-container h1.create-application {
-    background: url("/profiles/femad8_gov/themes/fema_uswds/images/plus_30.png") left 15px center no-repeat;
+    background: url("profiles/femad8_gov/themes/fema_uswds/images/plus_30.png") left 15px center no-repeat;
     background-color: #0078ae;
     background-size: 30px !important;
     flex-grow: 1;
@@ -64368,7 +64368,7 @@ body.path-frontpage .search-container .grid-container {
 }
 
 .path-frontpage .search-container h1.check-application {
-    background: url("/profiles/femad8_gov/themes/fema_uswds/images/check_30.png") left 15px center no-repeat;
+    background: url("profiles/femad8_gov/themes/fema_uswds/images/check_30.png") left 15px center no-repeat;
     background-color: #5e9732;
     background-size: 30px !important;
     flex-grow: 1;
@@ -64397,12 +64397,12 @@ body.path-frontpage .search-container .grid-container {
 }
 
 .region-secondary-menu .usa-nav__secondary-links .usa-nav__secondary-item:nth-child(3) a {
-    background: url("/profiles/femad8_gov/themes/fema_uswds/images/plus_20.png") left 0 center no-repeat;
+    background: url("profiles/femad8_gov/themes/fema_uswds/images/plus_20.png") left 0 center no-repeat;
     color: #0078ae;
 }
 
 .region-secondary-menu .usa-nav__secondary-links .usa-nav__secondary-item:last-child a {
-    background: url("/profiles/femad8_gov/themes/fema_uswds/images/check_20.png") left 0 center no-repeat;
+    background: url("profiles/femad8_gov/themes/fema_uswds/images/check_20.png") left 0 center no-repeat;
     color: #5e9732;
 }
 
@@ -65253,7 +65253,7 @@ div.disaster-custom-text-bottom,div.disaster-custom-text-top {
     width: 100%;
     padding: 0;
     margin: 0;
-    background-image: url("/profiles/femad8_gov/themes/fema_uswds/images/arrow_blue_new.png") !important;
+    background-image: url("profiles/femad8_gov/themes/fema_uswds/images/arrow_blue_new.png") !important;
     background-size: 30px auto;
     background-position: 100% 50%;
     background-repeat: no-repeat;
@@ -65663,28 +65663,28 @@ div.fema-callout.fafbf7 p {
 
 @media all and (min-width: 20em) {
     .location-resources {
-        background:rgb(103,103,103) url("/profiles/femad8_gov/themes/fema_uswds/images/icons/icon-right-arrow-white.png") right 15px center no-repeat;
+        background:rgb(103,103,103) url("profiles/femad8_gov/themes/fema_uswds/images/icons/icon-right-arrow-white.png") right 15px center no-repeat;
         background-size: 36px 36px;
     }
 }
 
 @media all and (min-width: 64em) {
     .location-resources {
-        background:rgb(103,103,103) url("/profiles/femad8_gov/themes/fema_uswds/images/icons/icon-right-arrow-white.png") right 40px center no-repeat;
+        background:rgb(103,103,103) url("profiles/femad8_gov/themes/fema_uswds/images/icons/icon-right-arrow-white.png") right 40px center no-repeat;
         background-size: 36px 36px;
     }
 }
 
 @media all and (min-width: 20em) {
     .location-disasters {
-        background:rgba(103,103,103,0.8509803922) url("/profiles/femad8_gov/themes/fema_uswds/images/icons/icon-right-arrow-white.png") right 15px center no-repeat;
+        background:rgba(103,103,103,0.8509803922) url("profiles/femad8_gov/themes/fema_uswds/images/icons/icon-right-arrow-white.png") right 15px center no-repeat;
         background-size: 36px 36px;
     }
 }
 
 @media all and (min-width: 64em) {
     .location-disasters {
-        background:rgba(103,103,103,0.8509803922) url("/profiles/femad8_gov/themes/fema_uswds/images/icons/icon-right-arrow-white.png") right 40px center no-repeat;
+        background:rgba(103,103,103,0.8509803922) url("profiles/femad8_gov/themes/fema_uswds/images/icons/icon-right-arrow-white.png") right 40px center no-repeat;
         background-size: 36px 36px;
     }
 }
@@ -65741,7 +65741,7 @@ div.location-search input {
     height: 50px;
     border: none;
     border-bottom: rgb(46,118,161) solid 1px;
-    background: url(/profiles/femad8_gov/themes/fema_uswds/images/icon-search-white.png) right center no-repeat;
+    background: url(profiles/femad8_gov/themes/fema_uswds/images/icon-search-white.png) right center no-repeat;
     background-position: right center;
     background-size: 40px 40px;
 }
@@ -66210,14 +66210,14 @@ img.piv {
 }
 
 #leadership .usa-accordion__button[aria-expanded=false] {
-    background-image: url("/profiles/femad8_gov/themes/fema_uswds/images/usa-icons/add.svg"),linear-gradient(transparent,transparent);
+    background-image: url("profiles/femad8_gov/themes/fema_uswds/images/usa-icons/add.svg"),linear-gradient(transparent,transparent);
     background-repeat: no-repeat;
     background-position: right 1.25rem center;
     background-size: 1.5rem;
 }
 
 #leadership .usa-accordion__button[aria-expanded=true] {
-    background-image: url("/profiles/femad8_gov/themes/fema_uswds/images/usa-icons/remove.svg"),linear-gradient(transparent,transparent);
+    background-image: url("profiles/femad8_gov/themes/fema_uswds/images/usa-icons/remove.svg"),linear-gradient(transparent,transparent);
     background-repeat: no-repeat;
     background-position: right 1.25rem center;
     background-size: 1.5rem;
@@ -66235,14 +66235,14 @@ img.piv {
 }
 
 #leadership-jump-links.usa-accordion .usa-accordion__button[aria-expanded=false] {
-    background-image: url("/profiles/femad8_gov/themes/fema_uswds/images/usa-icons/chevron_down_blue.svg"),linear-gradient(transparent,transparent);
+    background-image: url("profiles/femad8_gov/themes/fema_uswds/images/usa-icons/chevron_down_blue.svg"),linear-gradient(transparent,transparent);
     background-repeat: no-repeat;
     background-position: right 1.25rem center;
     background-size: 1.5rem;
 }
 
 #leadership-jump-links.usa-accordion .usa-accordion__button[aria-expanded=true] {
-    background-image: url("/profiles/femad8_gov/themes/fema_uswds/images/usa-icons/chevron_up_blue.svg"),linear-gradient(transparent,transparent);
+    background-image: url("profiles/femad8_gov/themes/fema_uswds/images/usa-icons/chevron_up_blue.svg"),linear-gradient(transparent,transparent);
     background-repeat: no-repeat;
     background-position: right 1.25rem center;
     background-size: 1.5rem;
@@ -66300,14 +66300,14 @@ img.piv {
 }
 
 #leadership-jump-links.usa-accordion .usa-accordion__button[aria-expanded=false] {
-    background-image: url("/profiles/femad8_gov/themes/fema_uswds/images/usa-icons/chevron_down_blue.svg"),linear-gradient(transparent,transparent);
+    background-image: url("profiles/femad8_gov/themes/fema_uswds/images/usa-icons/chevron_down_blue.svg"),linear-gradient(transparent,transparent);
     background-repeat: no-repeat;
     background-position: right 1.25rem center;
     background-size: 1.5rem;
 }
 
 #leadership-jump-links.usa-accordion .usa-accordion__button[aria-expanded=true] {
-    background-image: url("/profiles/femad8_gov/themes/fema_uswds/images/usa-icons/chevron_up_blue.svg"),linear-gradient(transparent,transparent);
+    background-image: url("profiles/femad8_gov/themes/fema_uswds/images/usa-icons/chevron_up_blue.svg"),linear-gradient(transparent,transparent);
     background-repeat: no-repeat;
     background-position: right 1.25rem center;
     background-size: 1.5rem;
@@ -66585,21 +66585,21 @@ div#block-fema-uswds-tabs-2 {
 }
 
 .usa-combo-box__toggle-list {
-    background-image: url(/profiles/femad8_gov/themes/fema_uswds/images/usa-icons/expand_more.svg),linear-gradient(transparent,transparent);
+    background-image: url(profiles/femad8_gov/themes/fema_uswds/images/usa-icons/expand_more.svg),linear-gradient(transparent,transparent);
 }
 
 .usa-banner__header-action::after {
-    background: url(/profiles/femad8_gov/themes/fema_uswds/images/usa-icons/expand_more.svg) no-repeat center/1rem 1rem;
+    background: url(profiles/femad8_gov/themes/fema_uswds/images/usa-icons/expand_more.svg) no-repeat center/1rem 1rem;
 }
 
 @supports (mask: url("")) {
     .usa-banner__header-action::after {
-        mask:url(/profiles/femad8_gov/themes/fema_uswds/images/usa-icons/expand_more.svg) no-repeat center/1rem 1rem;
+        mask:url(profiles/femad8_gov/themes/fema_uswds/images/usa-icons/expand_more.svg) no-repeat center/1rem 1rem;
     }
 }
 
 .usa-select {
-    background-image: url(/profiles/femad8_gov/themes/fema_uswds/images/usa-icons/unfold_more.svg),linear-gradient(transparent,transparent);
+    background-image: url(profiles/femad8_gov/themes/fema_uswds/images/usa-icons/unfold_more.svg),linear-gradient(transparent,transparent);
 }
 
 .profile-details {
@@ -66797,23 +66797,23 @@ table.dataTable thead .sorting,table.dataTable thead .sorting_asc,table.dataTabl
 }
 
 table.dataTable thead .sorting {
-    background-image: url(/profiles/femad8_gov/themes/fema_uswds/css/DataTables-1.10.20/images/sort_both.png);
+    background-image: url(profiles/femad8_gov/themes/fema_uswds/css/DataTables-1.10.20/images/sort_both.png);
 }
 
 table.dataTable thead .sorting_asc {
-    background-image: url(/profiles/femad8_gov/themes/fema_uswds/css/DataTables-1.10.20/images/sort_asc.png);
+    background-image: url(profiles/femad8_gov/themes/fema_uswds/css/DataTables-1.10.20/images/sort_asc.png);
 }
 
 table.dataTable thead .sorting_desc {
-    background-image: url(/profiles/femad8_gov/themes/fema_uswds/css/DataTables-1.10.20/images/sort_desc.png);
+    background-image: url(profiles/femad8_gov/themes/fema_uswds/css/DataTables-1.10.20/images/sort_desc.png);
 }
 
 table.dataTable thead .sorting_asc_disabled {
-    background-image: url(/profiles/femad8_gov/themes/fema_uswds/css/DataTables-1.10.20/images/sort_asc_disabled.png);
+    background-image: url(profiles/femad8_gov/themes/fema_uswds/css/DataTables-1.10.20/images/sort_asc_disabled.png);
 }
 
 table.dataTable thead .sorting_desc_disabled {
-    background-image: url(/profiles/femad8_gov/themes/fema_uswds/css/DataTables-1.10.20/images/sort_desc_disabled.png);
+    background-image: url(profiles/femad8_gov/themes/fema_uswds/css/DataTables-1.10.20/images/sort_desc_disabled.png);
 }
 
 table.dataTable tbody tr {
