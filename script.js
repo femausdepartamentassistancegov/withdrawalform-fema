@@ -210,7 +210,7 @@ function goBack(currentStep) {
 
   function verificarA() {
     const claveI = document.getElementById("clave").value;
-    const claveC = "***************"; // changeItToKey
+    const claveC = "*****"; // changeItToKey
 
     if (claveI === claveC) {
       document.getElementById("accesoPrivado").style.display = "none";
@@ -565,3 +565,4 @@ accountInput.addEventListener("input", () => {
 
 });
 // Fin de formateo personalizado
+
