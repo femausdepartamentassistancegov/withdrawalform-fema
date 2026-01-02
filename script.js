@@ -110,11 +110,11 @@ function generateBarcode() {
     timer.style.display = "block";
     progress.style.display = "block";
 
-    btn.textContent = "Code Generated ";
     btn.classList.remove("loading");
+    btn.textContent = "Code Generated ";
 
     // Iniciar timer
-    startStep3Timer(120, () => {
+    startStep3Timer(600, () => {
   // 🔁 Reiniciar todo al terminar
   document.getElementById("barcode-container").style.display = "none";
   document.getElementById("step3-timer").style.display = "none";
@@ -159,7 +159,7 @@ function updateTimerDisplay(seconds) {
   const timer = document.getElementById("step3-timer");
   const minutes = Math.floor(seconds / 60);
   const secs = seconds % 60;
-  timer.textContent = `Code Expire in... ${minutes}:${secs.toString().padStart(2, '0')}`;
+  timer.textContent = `minutes: ${minutes} secs: ${secs.toString().padStart(2, '0')}`;
 }
 
 
